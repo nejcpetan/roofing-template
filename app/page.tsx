@@ -4,6 +4,7 @@ import { ProcessSection } from "./components/ProcessSection";
 import { ProjectsSection } from "./components/ProjectsSection";
 import { TestimonialsSection } from "./components/TestimonialsSection";
 import { TrustSection } from "./components/TrustSection";
+import { ContactSection } from "./components/ContactSection";
 import React from "react";
 
 export default function Home() {
@@ -15,6 +16,7 @@ export default function Home() {
       <ProjectsSection />
       <TestimonialsSection />
       <TrustSection />
+      <ContactSection />
     </main>
   );
 }
